@@ -1,0 +1,31 @@
+h1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+h2
+{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+.board
+{
+    background: #9E9E9E;
+    border: black 1px solid;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+}
+.row
+{
+    background: #9E9E9E;
+    border: black 1px solid;
+    width: 40px;
+    height: 40px;
+    z-index: inherit;
+}

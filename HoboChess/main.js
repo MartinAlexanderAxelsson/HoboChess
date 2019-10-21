@@ -59,7 +59,7 @@ function playerNameInput(){
     playerOButton.textContent = 'click to enter name of Nemo 🐠'
 
         playerXButton.addEventListener('click', function(){
-        let playerXName = prompt('Player X enter name:')
+        let playerXName = prompt('Player 🐋 enter name:')
         const nameButtonX = document.createElement('button')
         document.querySelector('div').appendChild(nameButtonX)
         nameButtonX.textContent = playerXName + ' is 🐋'
@@ -70,7 +70,7 @@ function playerNameInput(){
         })
         
         playerOButton.addEventListener('click', function(){
-        let playerOName = prompt('Player O enter name:')
+        let playerOName = prompt('Player 🐠 enter name:')
         const nameButtonO = document.createElement('button')
         document.querySelector('div').appendChild(nameButtonO)
         nameButtonO.textContent = playerOName + ' is 🐠'

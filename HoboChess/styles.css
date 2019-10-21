@@ -1,31 +1,82 @@
+
+body
+{
+    background: rgb(22, 26, 34);
+}
 h1
 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-
+    color: rgb(5, 75, 107);
 }
 
 h2
 {
-    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     font-size: 40px;
-    color: red;
+    color: rgb(81, 202, 192);
 }
-.board
+h3
 {
-    background: #9E9E9E;
-    border: black 1px solid;
-    width: 40px;
-    height: 40px;
-    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(5, 75, 107);
+    font-size: 15px;
 }
-.row
+
+div
 {
-    background: #9E9E9E;
-    border: black 1px solid;
-    width: 40px;
-    height: 40px;
-    z-index: inherit;
+    text-align: center;
+    padding: 0px;
+}
+
+.name1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(5, 75, 107);
+    text-align: center;
+    background: rgb(32, 163, 145);
+    border: 2px solid rgb(5, 75, 107);
+    height: 50px;
+    width: 100px;
+    font-size: 11px;
+    margin: 20px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    
+}
+
+.playerNameToogle, .countStrokes, .start
+{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+color: rgb(27, 89, 117);
+font-size: 22px;
+}
+
+button
+{
+border: 0.9px solid rgb(93, 164, 197);
+background: rgb(22, 26, 34);
+height: 25px;
+width: 25px;
+    /* text-align: center; */
+vertical-align: middle;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 10px;
+cursor: pointer;
+    
+}
+
+table
+{
+border-collapse: collapse;
+position: absolute;
+margin-top: 340px;
+left: 50%;
+margin-left: -309px;
+top: 50px;
+margin-bottom: 100px;
 }
